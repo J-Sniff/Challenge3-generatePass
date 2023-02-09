@@ -1,5 +1,10 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
+var passLength = [];
+let arr = [];
+for (var i = 8; i < 128; i++) {
+    passLength.push(i);
+}
 
 
 
@@ -36,8 +41,8 @@ function myFunction() {
 }
 
 
-// let button = document.querySelector('button');
+let button = document.querySelector('button');
 
-// button.addEventListener('click', function() {
-//   console.log('Button was clicked!');
-// });
+button.addEventListener('click', function() {
+  console.log('Button was clicked!');
+});
