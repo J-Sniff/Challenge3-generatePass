@@ -20,11 +20,11 @@ function writePassword() {
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", e => {
-  window.prompt( "Please enter the desired length of your password. (Characters cannot be less than 8 or exceed 128)");
+  window.prompt( "Please enter the desired length of your password. (Must be 8 - 128)");
 })
 
 
-
+// add to buttons ------> onclick= "passCriteria()
 // function passCriteria() {
 //   window.prompt( "Please enter the desired length of your password. (Characters cannot be less than 8 or exceed 128)");
 // }
