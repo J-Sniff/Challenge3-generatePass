@@ -5,10 +5,14 @@ var upperChar = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var specialChar = " !'()*+#,%-./:&;$<=>?@[]^_`{|}~,";
 var numChar = "0123456789";
 
+
 function generatePassword() {
   var userPass = "";
   var emptyString = "";
   var passLength = parseInt(prompt("Please enter the desired length of your password. (Must be 8 - 128)"));
+  if (Number.isNaN(passLength)) {
+    alert("Please enter a valid number within the perameters.");
+  }
   if (!passLength) {
     return;
   }
@@ -37,7 +41,7 @@ function generatePassword() {
     return;
   }
 
-  for (var i = 0; i <= passLength; i++) {
+  for (var i = 0; i < passLength; i++) {
     var placeHolder = emptyString[Math.floor(Math.random() * emptyString.length)];
     userPass += placeHolder;
   }
