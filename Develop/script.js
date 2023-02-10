@@ -6,15 +6,15 @@ var specialChar = " !'()*+#,%-./:&;$<=>?@[]^_`{|}~,";
 var numChar = "0123456789";
 
 function generatePassword() {
-  var userPass = " ";
-  var emptyString = " ";
+  var userPass = "";
+  var emptyString = "";
   var passLength = parseInt(prompt("Please enter the desired length of your password. (Must be 8 - 128)"));
   if (!passLength) {
-    return "";
+    return;
   }
   else if (passLength < 8 || passLength > 128) {
     window.alert("Please enter a length within the parameters.");
-    return "";
+    return;
   }
   var lowerChoice = confirm("Please confirm if you would like to include lowercase characters.")
   if (lowerChoice === true) {
@@ -34,7 +34,7 @@ function generatePassword() {
   }
   if (lowerChoice === false && upperChoice === false && specialChoice === false && numberChoice === false) {
     alert("You must include at least one of the password variables.")
-    return "";
+    return;
   }
 
   for (var i = 0; i <= passLength; i++) {
@@ -61,21 +61,7 @@ generateBtn.addEventListener("click", writePassword);
 
 
 
-// add to buttons ------> onclick= "passCriteria()
-// function passCriteria() {
-//   window.prompt( "Please enter the desired length of your password. (Characters cannot be less than 8 or exceed 128)");
-// }
-
-
-// var passLength = [];
-// for (var i = 8; i < 128; i++) {
-//     passLength.push(i);
-// }
-
-
-
-
-////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+////////////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 function myFunction() {
   var element = document.body;
