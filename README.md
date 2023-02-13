@@ -14,8 +14,21 @@ With this generator you may be able to choose to include or exclude any of these
 
 ## Get Started
 
-To get started simply go to the website [here](https://j-sniff.github.io/Challenge3-generatePass/) and press the generate button. Once the generate button has been pressed a series of prompts will start. This is where you will choose to have which perameters you would like to include. Once finished with the prompts your newly custom password will generate.
+To get started simply go to the website [here]() and press the generate button. Once the generate button has been pressed a series of prompts will start. This is where you will choose to have which perameters you would like to include. Once finished with the prompts your newly custom password will generate.
 
-
+![Website](pictures\1.png)
+![Parameter1](pictures\2.png)
+![Parameter2](pictures\3.png)
+![Parameter3](pictures\4.png)
+![Parameter4](pictures\5.png)
+![generatePassComplete](pictures\6.png)
 
 I hope you take of advantage of this tool and helps you to stay more secure. I recommend changing your password atleast once a month to avoid a breach.
+
+##Support
+
+If you need support please contact me using one of the options below.
+
+- JacobSniff18@gmail.com
+- Jacob Sniff on Slack & Discord
+
