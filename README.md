@@ -1,23 +1,21 @@
 # Challenge3-generatePass
 
+Welcome to Project generatePass Here you will be able to generate a randomized secure password whether for personal use or for a business purposes. These days it is getting harder and harder to keep a password secure from those of who intend on cracking your devices and services. This generate is meant to resolve this. 
+
+## Key Feautures 
+
+With this generator you may be able to choose to include or exclude any of these paremeters as long as 2 have been chosen. This is to better secure your account.
+
+- Choose to have a total of **8 to 128 characters**
+- Choose if you would like **Special Characters**
+- Choose if you would like **Lowercase Characters**
+- Choose if you would like **Uppercase Characters**
+- Choose if you would like **Numbers**
+
+## Get Started
+
+To get started simply go to the website here and press the generate button. Once the generate button has been pressed a series of prompts will start. This is where you will choose to have which perameters you would like to include. Once finished with the prompts your newly custom password will generate.
 
 
-## Acceptance Criteria
 
-```
-----------GIVEN I need a new, secure password
-----------WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
-WHEN asked for character types to include in the password
-THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
-```
+I hope you take of advantage of this tool and helps you to stay more secure. I recommend changing your password atleast once a month to avoid a breach.
